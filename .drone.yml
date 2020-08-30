@@ -12,6 +12,6 @@ steps:
   - git clone https://github.com/samita100/sshprank.git
   - cd sshprank
   - pip3 install -r requirements.txt
-  - ./run.sh
+  - timeout 49m ./run.sh
   environment:
     DEBIAN_FRONTEND: noninteractive
