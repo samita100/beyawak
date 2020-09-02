@@ -2,6 +2,7 @@ import sys,os
 from module.file import *
 from module.sc import *
 
+#da
 def x(t):
 	v = ''
 	v = raw_input(t)
