@@ -28,11 +28,11 @@ def main():
 	print "                    \       /"
 	print "                     ^-----^"
 	print " }---------"+m+"+="+r+"{ Coded by Ms.ambari }"+m+"=+"+r+"---------{ \n"
-	print r+"["+h+"1"+r+"] http header information"
+	print r+"["+h+"1"+r+"] HTTP header information"
 	print r+"["+h+"2"+r+"] admin panel finder"
 	print r+"["+h+"3"+r+"] shell backdoor scanner"
 	print r+"["+h+"4"+r+"] dump friend id on facebook"
-	print r+"["+h+"5"+r+"] subdomain scanner"
+	print r+"["+h+"5"+r+"] sub-domain scanner"
 	print r+"["+h+"6"+r+"] facebook auto update status"
 	print r+"["+h+"x"+r+"] exit this tool\n"
 	try:
