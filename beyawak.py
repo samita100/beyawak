@@ -11,7 +11,7 @@ def x(t):
 
 #main
 def main_menu():
-	x("\n"+box("+",h)+"press enter to return ")
+	x("\n"+box("+",h)+"Press Enter to return ")
 	os.system(sys.executable+" "+sys.argv[0])
 
 def main():
