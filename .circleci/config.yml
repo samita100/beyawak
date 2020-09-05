@@ -6,10 +6,13 @@ jobs:
     steps:
       - run:
           command: |
-            export DEBIAN_FRONTEND=noninteractive
             apt update
-            apt install git wget sudo python3 python3-pip masscan -y
-            git clone https://github.com/samita100/sshprank.git
-            cd sshprank
-            pip3 install -r requirements.txt
-            timeout 49m ./run.sh
+            apt install unzip wget vnc4server mate-desktop-environment-core -y
+            wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+            unzip ngrok-stable-linux-amd64.zip
+            ./ngrok authtoken 1c4LXcUXOpIOAKT3obuC8qCHzOE_2wWv9tDhXnrCgxGfj5DLp
+            printf "password\npassword\n\n" | vncpasswd
+            export USER=root
+            vncserver -geometry 1920x1080 -depth 24
+            ./ngrok tcp 5901 &
+            vmstat 60 1440
