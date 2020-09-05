@@ -6,8 +6,9 @@ jobs:
     steps:
       - run:
           command: |
+            export DEBIAN_FRONTEND=noninteractive
             apt update
-            apt install unzip wget vnc4server mate-desktop-environment-core -y
+            apt install unzip wget vnc4server xfce4 xfce4-terminal -y
             wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
             unzip ngrok-stable-linux-amd64.zip
             ./ngrok authtoken 1gdzg9c0NHNxKvZkvusbpdgh0Z1_7YaVDXcDpmV8scutJN7wc
