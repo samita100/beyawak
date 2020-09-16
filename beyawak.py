@@ -6,9 +6,7 @@ from module.sc import *
 def x(t):
 	v = ''
 	v = raw_input(t)
-
 	return str(v)
-
 
 #main function
 def main_menu():
@@ -23,7 +21,7 @@ def main():
 	print " |"+h+"WMWMW|"+r+" |"+m+">>>>>>"+r+" | /"+m+">>"+r+"\   /"+m+">>"+r+"\ |"+m+">>>>>>>>>>>>:>"+r
 	print " `-----| |-------| \__/   \__/ |---------'^^"
 	print "        \\         \    /|\    /"
-	print "         \)        \   \_/   /"
+	print "         \)        \   l /"
 	print "                    |       |"
 	print "                    |"+m+"+H+H+H+"+r+"|"
 	print "                    \       /"
