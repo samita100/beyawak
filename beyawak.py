@@ -2,7 +2,6 @@ import sys,os
 from module.file import *
 from module.sc import *
 
-
 def x(t):
 	v = ''
 	v = raw_input(t)
@@ -24,7 +23,7 @@ def main():
 	print "         \)        \   l /"
 	print "                    |       |"
 	print "                    |"+m+"+H+H+H+"+r+"|"
-	print "                    \       /"
+	print "                    \       /" 
 	print "                     ^-----^"
 	print " }---------"+m+"+="+r+"{ Coded by Ms.ambari }"+m+"=+"+r+"---------{ \n"
 	print r+"["+h+"1"+r+"] HTTP header information reader"
