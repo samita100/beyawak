@@ -22,7 +22,7 @@ def main():
 	print "        \\         /|\    /"
 	print "         \)      \   l /"
 	print "                    |       |"
-	print "                    |"+m+"+H+H+H+"+r+"|"
+	print "                    |"+m+H+H+"+r+"|"
 	print "              /" 
 	print "                     ^-----^"
 	print " }---------"+m+"+="+r+"{ Coded by Ms.ambari }"+m+"=+"+r+"---------{ \n"
