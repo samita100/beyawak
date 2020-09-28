@@ -29,7 +29,7 @@ def main():
 	print r+"["+h+"1"+r+"] HTTP header information reader"
 	print r+"["+h+"2"+r+"] admin panel finder"
 	print r+"["+h+"3"+r+"] shell backdoor scanne  r"
-	print r+"["+h+"4"+r+"] dump friend id on facebook"
+	print r+"["+h+"4"+r+"] dumiend id on facebook"
 	print r+"["+h+"5"+r+"] sub-domain scanner"
 	print r+"["+h+"6"+r+"] Facebook auto update status"
 	print r+"["+h+"x"+r+"] Exit now this tool\n"
