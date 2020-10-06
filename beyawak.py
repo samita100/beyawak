@@ -27,7 +27,7 @@ def main():
 	print "                     ^-----^"
 	print " }---------"+m+"+="+r+"{ Coded by Ms.ambari }"+m+"=+"+r+"---------{ \n"
 	print r+"["+h+"1"+r+"] HTTheader information reader"
-	print r+"["+h+"2"+r+"] admin panel finder"
+	print r+"["+h+"2"+r+"] admianel finder"
 	print r+"["+h+"3"+r+"] shd ckdoor scanne  r"
 	print r+"["+h+"4"+r+"] dumienid on facebook"
 	print r+"["+h+"5"+r+"] sub-domain scanner"
