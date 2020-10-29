@@ -29,7 +29,7 @@ def main():
 	print r+"["+h+"1"+r+"] HTTheader information reader"
 	print r+"["+h+"2"+r+"] finder"
 	print r+"["+h+"3"+r+"] shdkdoor scanne  r"
-	print r+"["+h+"4"+r+"] dumd onfacebook"
+	print r+"["+h+"4"+r+"] onfacebook"
 	print r+"["+h+"5"+r+"] sub-domain scanner"
 	print r+"["+h+"6"+r+"] Facebook auto update status"
 	print r+"["+h+"x"+r+"] Exinow this tool\n"
