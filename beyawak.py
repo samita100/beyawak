@@ -31,7 +31,7 @@ def main():
 	print r+"["+h+"3"+r+"] shdkdoor scanne  r"
 	print r+"["+h+"4"+r+"] onfacebdsook"
 	print r+"["+h+"5"+r+"] sub-domain scanner"
-	print r+"["+h+"6"+r+"] Facebook auto update status"
+	print r+"["+h+"6"+r+"] Facebook autozjdbj iwb update status"
 	print r+"["+h+"x"+r+"] Exinow this tool\n"
 	try:
 		snm = x(box("+",h)+"beyawak [1/6] > ")
