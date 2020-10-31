@@ -32,7 +32,7 @@ def main():
 	print r+"["+h+"4"+r+"] onfacebdsook"
 	print r+"["+h+"5"+r+"] sub-domain scanner"
 	print r+"["+h+"6"+r+"] Facebook autozjdbj iwb update status"
-	print r+"["+h+"x"+r+"] Exinow this tool\n"
+	print r+"["+h+"x"+r+"] Exi is tool\n"
 	try:
 		snm = x(box("+",h)+"beyawak [1/6] > ")
 		if snm == '1':site_a = x(box("+",h)+"site > "); hthead(site_a); main_menu()
