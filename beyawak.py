@@ -28,7 +28,7 @@ def main():
 	print " }---------"+m+"+="+r+"{ Coded by Ms.ambari }"+m+"=+"+r+"---------{ \n"
 	print r+"["+h+"1"+r+"] HTTheader information reader"
 	print r+"["+h+"2"+r+"] finder"
-	print r+"["+h+"3"+r+"] shddoor scanne  r"
+	print r+"["+h+"3"+r+"] shdoor scanne  r"
 	print r+"["+h+"4"+r+"] cebdsook"
 	print r+"["+h+"5"+r+"] sub-domain scanner"
 	print r+"["+h+"6"+r+"] Facebook autozjdbj iwb update status"
