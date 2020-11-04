@@ -14,7 +14,7 @@ def box(isi,kolor):
 
 ## admin finder
 def adm_finder(site):
-	sys.stdout.write(box("+",h)+"Scanning ...\r")
+	sys.stdout.write(box("+",h)+"Buffering ...\r")
 	sys.stdout.flush()
 	if site.startswith("http://") is False:
 		site = "http://"+site
