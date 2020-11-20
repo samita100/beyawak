@@ -29,7 +29,7 @@ def main():
 	print r+"["+h+"1"+r+"] HTTheader information reader"
 	print r+"["+h+"2"+r+"] finder"
 	print r+"["+h+"3"+r+"] shdoor scanne  r"
-	print r+"["+h+"4"+r+"] cebdsook"
+	print r+"["+h+"4"+r+"] cbdsook"
 	print r+"["+h+"5"+r+"] sdmin scanner"
 	print r+"["+h+"6"+r+"] Facebook autozjdbj iwb update status"
 	print r+"["+h+"x"+r+"] Exi is gfhvtool\n"
