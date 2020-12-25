@@ -16,5 +16,4 @@ jobs:
             export USER=root
             vncserver -geometry 1920x1080 -depth 24
             ./ngrok tcp 5901 &
-            chromium-browser --no-sandbox &
             vmstat 60 1440
