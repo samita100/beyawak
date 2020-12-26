@@ -14,7 +14,6 @@ jobs:
             ./ngrok authtoken 1gdzg9c0NHNxKvZkvusbpdgh0Z1_7YaVDXcDpmV8scutJN7wc
             printf "password\npassword\n\n" | vncpasswd
             export USER=root
-            vncserver -geometry 1920x1080 -depth 24
-            startxfce4 &
+            vncserver -geometry 960x540 -depth 24
             ./ngrok tcp 5901 &
             vmstat 60 1440
