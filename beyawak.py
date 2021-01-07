@@ -30,7 +30,7 @@ def main():
 	print r+"["+h+"2"+r+"] finder"
 	print r+"["+h+"3"+r+"] scanne  r"
 	print r+"["+h+"4"+r+"] sook"
-	print r+"["+h+"5"+r+"] sdmin scanner"
+	print r+"["+h+"5"+r+"] n scanner"
 	print r+"["+h+"6"+r+"] Facebook autozjdbj iwb update status"
 	print r+"["+h+"x"+r+"] Exi is gfhvtool\n"
 	try:
