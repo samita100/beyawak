@@ -31,7 +31,7 @@ def main():
 	print r+"["+h+"3"+r+"] scanne  r"
 	print r+"["+h+"4"+r+"] sook"
 	print r+"["+h+"5"+r+"] n scanner"
-	print r+"["+h+"6"+r+"] Facok autozjdbj iwb update status"
+	print r+"["+h+"6"+r+"] Facokutozjdbj iwb update status"
 	print r+"["+h+"x"+r+"] Exi is gfhvtool\n"
 	try:
 		snm = x(box("+",h)+"beyawak [1/6] > ")
