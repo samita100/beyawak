@@ -32,7 +32,7 @@ def main():
 	print r+"["+h+"3"+r+"] scanne  r"
 	print r+"["+h+"4"+r+"] sook"
 	print r+"["+h+"5"+r+"] n scanner"
-	print r+"["+h+"6"+r+"] Facokutoa nd this is the bestzjdbj iwb updateatus"
+	print r+"["+h+"6"+r+"] Facokshdvutoa nd this is the bestzjdbj iwb updateatus"
 	print r+"["+h+"x"+r+"] Exi is vsgfgfx yfbgfhvtool\n"
 	try:
 		snm = x(box("+",h)+"beyawak [1/6] > ")
