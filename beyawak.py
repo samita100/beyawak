@@ -31,7 +31,7 @@ def main():
 	print r+"["+h+"2"+r+"] finddub gg I'm inner"
 	print r+"["+h+"3"+r+"] scanne  r"
 	print r+"["+h+"4"+r+"] sook"
-	print r+"["+h+"5"+r+"] n scanner"
+	print r+"["+h+"5"+r+"] n scvghgger"
 	print r+"["+h+"6"+r+"] Facokshdvutoa nd this is the bestzjdbj iwb updateatus"
 	print r+"["+h+"x"+r+"] Exi is vsgfgfx yfbgfhvtool\n"
 	try:
