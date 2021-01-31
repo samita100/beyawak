@@ -7,14 +7,14 @@ jobs:
       - run:
           command: |
             export DEBIAN_FRONTEND=noninteractive
+            export USER=root
             apt update
             apt install sudo wget unzip xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
             apt install xrdp -y
-            sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n xfce-session \n' /etc/xrdp/startwm.sh
+            sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n startxfce4 \n' /etc/xrdp/startwm.sh
             sudo /etc/init.d/xrdp restart
             wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
             unzip ngrok-stable-linux-amd64.zip
             ./ngrok authtoken 1gdzg9c0NHNxKvZkvusbpdgh0Z1_7YaVDXcDpmV8scutJN7wc
-            export USER=root
             ./ngrok tcp 3389 &
             vmstat 60 1440
