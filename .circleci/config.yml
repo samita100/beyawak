@@ -9,7 +9,10 @@ jobs:
             export DEBIAN_FRONTEND=noninteractive
             export USER=root
             apt update
-            apt install unzip wget -y
+            apt install unzip wget curl -y
+            curl https://sh.rustup.rs -o rustup-init.sh
+            sh rustup-init.sh -y
+            cp ~/.cargo/bin/* /bin/
             wget https://github.com/cdr/code-server/releases/download/v3.8.0/code-server-3.8.0-linux-amd64.tar.gz
             tar xvfz code-server-3.8.0-linux-amd64.tar.gz
             PORT=1234 ./code-server-3.8.0-linux-amd64/bin/code-server --auth=none &
