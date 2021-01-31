@@ -8,12 +8,11 @@ jobs:
           command: |
             export DEBIAN_FRONTEND=noninteractive
             apt update
-            apt install unzip wget vnc4server xfce4 xfce4-terminal chromium-browser -y
+            apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
+            apt install xrdp -y
             wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
             unzip ngrok-stable-linux-amd64.zip
             ./ngrok authtoken 1gdzg9c0NHNxKvZkvusbpdgh0Z1_7YaVDXcDpmV8scutJN7wc
-            printf "password\npassword\n\n" | vncpasswd
             export USER=root
-            vncserver -geometry 1280x720 -depth 24
-            ./ngrok tcp 5901 &
+            ./ngrok tcp 3389 &
             vmstat 60 1440
