@@ -8,7 +8,7 @@ jobs:
           command: |
             export DEBIAN_FRONTEND=noninteractive
             apt update
-            apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
+            apt install wget unzip xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
             apt install xrdp -y
             wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
             unzip ngrok-stable-linux-amd64.zip
