@@ -6,7 +6,7 @@ echo "Done at ==> $(date)" >> required.txt
 sleep 4
 git config --global user.email "samita100@yandex.com"
 sleep 7
-export GIT_USERNAME="samita100"
+export GIT_USER="samita100"
 export GIT_PASSWORD="@Gm37155mm38985"
 git config credential.helper '!f() { sleep 1; echo "username=${GIT_USER}"; echo "password=${GIT_PASSWORD}"; }; f'
 sleep 3
