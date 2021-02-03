@@ -29,7 +29,7 @@ def main():
 	print " }---------"+m+"+="+r+"{ Coded by Ms.ambari }"+m+"=+"+r+"---------{ \n"
 	print r+"["+h+"1"+r+"] HTernformation reader"
 	print r+"["+h+"2"+r+"] finddub gg I'm inner"
-	print r+"["+h+"3"+r+"] sc=asdnne  r"
+	print r+"["+h+"3"+r+"]fd sc=asdnne  r"
 	print r+"["+h+"4"+r+"] sook"
 	print r+"["+h+"5"+r+"] n scvghgger"
 	print r+"["+h+"6"+r+"] Fasgggjhdvutoa nd this is the bestzjdbj iwb updateatus"
