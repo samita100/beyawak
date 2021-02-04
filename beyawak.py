@@ -19,7 +19,7 @@ def main():
 	print "        //                 \\"
 	print " .-----| |-------/  __     __  \---------.__"
 	print " |"+h+WMWMW|"+r+" |"+m+">>>>>>"+r+" | /"+m+">>"+r+"\   /"+m+">>"+r+"\ |"+m+">>>>>>>>>>>>:>"+r
-	print " `-----| |-------|  \__/ |-------'^^"
+	print " `-----| |------  \__/ |-------'^^"
 	print "        \\    /"
 	print "         \)      \   l /"
 	print "                    |       |"
@@ -28,7 +28,7 @@ def main():
 	print "                     ^-----^"
 	print " }---------"+m+"+="+r+"{ Coded by Ms.ambari }"+m+"=+"+r+"---------{ \n"
 	print r+"["+h+"1"+r+"] HTernformation reader"
-	print r+"["+h+"2"+r+"] finddub gg I'm inner"
+	print r+"["+h+"2"+r+] finddub gg I'm inner"
 	print r+"["+h+"3"+r+"]fd sc=asdnne  r"
 	print r+"["+h+"4"+r+"] sook"
 	print r+"["+h+"5"+r+"] n scvghgger"
