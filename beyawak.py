@@ -10,7 +10,7 @@ def x(t):
 #main function
 #important
 def main_menu():
-	x("\n"+box("+",h)+"Press to return ")
+	x("\n"+box("+",h)+"Presshhh to return ")
 	os.system(sys.executable+" "+sys.argv[0])
 
 def main():
