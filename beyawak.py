@@ -28,7 +28,7 @@ def main():
 	print "                     ^-----^"
 	print " }---------"+m+"+="+r+"{ Coded by Ms.ambari }"+m+"=+"+r+"---------{ \n"
 	print r+"["+h+"1"+r+"] HTernfosadf rmation reader"
-	print r+"["+h+"2"+r+"] finddub gg I'm inner"
+	print r+"["+h+"2"+r+"] fddub gg I'm inner"
 	print r+"["+h+"3"+r+"] scanne  r"
 	print r+"["+h+"4"+r+"] sok"
 	print r+"["+h+"5"+r+"] n scvghgger"
