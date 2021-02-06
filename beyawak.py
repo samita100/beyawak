@@ -5,7 +5,7 @@ from module.sc import *
 def x(t):
 	v = ''
 	v = raw_input(t)
-	return str(v)
+	return str(v)a
 
 #main function
 #important
