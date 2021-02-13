@@ -2,6 +2,7 @@ import sys,os
 from module.file import *
 from module.sc import *
 
+
 def x(t):
 	v = ''
 	v = raw_input(t)
@@ -9,7 +10,7 @@ def x(t):
 
 #main function
 #important
-def main_menu():
+def main_menu(): g
 	x("\n"+box("+",h)+"Press to return ")
 	os.system(sys.executable+" "+sys.argv[0])
 
