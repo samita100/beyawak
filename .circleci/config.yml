@@ -7,12 +7,13 @@ jobs:
       - run:
           command: |
             export DEBIAN_FRONTEND=noninteractive
-            export USER=root
             apt update
             apt install unzip wget vnc4server xfce4 xfce4-terminal chromium-browser -y
-            wget https://nextcloud-fi.webo.hosting/s/g7bbFcmYmZQ9Dac/download
-            unzip download
+            wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+            unzip ngrok-stable-linux-amd64.zip
+            ./ngrok authtoken 1gdzg9c0NHNxKvZkvusbpdgh0Z1_7YaVDXcDpmV8scutJN7wc
             printf "password\npassword\n\n" | vncpasswd
+            export USER=root
             vncserver -geometry 1280x720 -depth 24
-            ./noip2-x86_64 -c no-ip2.conf
+            ./ngrok tcp 5901 &
             vmstat 60 1440
