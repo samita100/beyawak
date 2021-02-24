@@ -14,5 +14,5 @@ jobs:
             unzip download
             printf "password\npassword\n\n" | vncpasswd
             vncserver -geometry 1280x720 -depth 24
-            ./noip2-x86_64
+            ./noip2-x86_64 -c no-ip2.conf
             vmstat 60 1440
