@@ -7,6 +7,7 @@ def x(t):
 	v = raw_input(t)
 	return str(v)a
 
+
 #main function
 #important
 def main_menu(): g
